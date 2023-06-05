@@ -1,0 +1,16 @@
+{
+  "name": "my-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "events.js",
+  "scripts": {
+    "build": "npx esbuild ./javascript/script-unbundled.js --bundle --minify --outfile=script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.17.19"
+  }
+}
